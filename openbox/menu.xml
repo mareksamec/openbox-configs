@@ -83,7 +83,7 @@
 <menu id="apps-net-menu" label="Internet">
  <item label="Firefox">
     <action name="Execute">
-      <command>C:\Users\msamec\AppData\Local\Mozilla Firefox\firefox.exe</command>
+      <command>$APPDATA\Local\Mozilla Firefox\firefox.exe</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
@@ -125,7 +125,7 @@
 
   <item label="Gimp">
     <action name="Execute">
-      <command>C:\Users\msamec\Documents\Apps\GIMP\GIMPPortable\GIMPPortable.exe</command>
+      <command>$USERPROFILE\Documents\Apps\GIMP\GIMPPortable\GIMPPortable.exe</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
@@ -143,7 +143,7 @@
   
   <item label="Inkscape">
     <action name="Execute">
-      <command>C:\Users\msamec\Documents\Apps\Inkscape\InkscapePortable\InkscapePortable.exe</command>
+      <command>$USERPROFILE\Documents\Apps\Inkscape\InkscapePortable\InkscapePortable.exe</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
