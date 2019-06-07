@@ -83,7 +83,7 @@
 <menu id="apps-net-menu" label="Internet">
  <item label="Firefox">
     <action name="Execute">
-      <command>$APPDATA\Local\Mozilla Firefox\firefox.exe</command>
+      <command>$LOCALAPPDATA\Mozilla Firefox\firefox.exe</command>
       <startupnotify>
         <enabled>yes</enabled>
       </startupnotify>
